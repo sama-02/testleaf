@@ -1,0 +1,33 @@
+1.What is oops stands for?
+-OOPS-stands for object oriented programming language
+2.What is Polymorphism? explain types?
+-Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms.
+-So polymorphism means many forms.
+-There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism
+3.what is interface and example in selenium,java?
+-Selenium WebDriver is an interface that defines a set of methods.
+-However, implementation is provided by the browser specific classes. 
+-Some of the implementation classes are AndroidDriver , ChromeDriver , FirefoxDriver , InternetExplorerDriver , IPhoneDriver , SafariDriver etc.
+4.what is abstarct class and example?
+-Abstract classes are essential to providing an abstraction to the code to make it reusable and extendable.
+-For example, a Vehicle parent class with Truck and Motorbike inheriting from it is an abstraction that easily allows more vehicles to be added.
+5.Difference between multiple inheritance and multilevel inheritance
+-The key difference between Multiple and Multilevel Inheritance is that Multiple Inheritance is when a class inherits from many base classes 
+while Multilevel Inheritance is when a class inherits from a derived class making that derived class a base class for a new class.
+6.Is multiple inheritance possible in java?
+-The Java programming language supports multiple inheritance of type, which is the ability of a class to implement more than one interface.
+-An object can have multiple types: the type of its own class and the types of all the interfaces that the class implements.
+7.What is keyword for using inheritance  
+-The extends keyword extends a class (indicates that a class is inherited from another class).
+8.what is the keyword to connect interface and class
+The interface keyword is used to declare a special type of class that only contains abstract methods. 
+To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class with the implements keyword (instead of extends ).
+9.what is difference between class and interface
+-A class describes the attributes and behaviors of an object.
+-An interface contains behaviors that a class implements. 
+-A class may contain abstract methods, concrete methods.
+-An interface contains only abstract methods
+10.what is difference between class and abstract class
+-Abstract methods cannot have body.
+-Abstract class can have static fields and static method, like other classes.
+-An abstract class cannot be declared as final.

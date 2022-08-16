@@ -1,0 +1,56 @@
+       Answer All the Question
+1.Explain about the main method in java?
+-Java main method is the entry point of any java program.Its syntax is always 
+public static void main(String[] args.You can only change the name of String array argument,
+for example you can change args to myStringArgs.
+
+2.What are the different  Control flow Statements available in java?
+-Decision making statement:
+ * if-statement
+ * if-else statement.
+-Looping statement
+ * For 
+ * while
+-Jumping statement
+ * Continue
+ * Break
+             
+3.What is the Difference betweeen break and continue statements?
+-The break statement is used to terminate the loop immediately. 
+-The continue statement is used to skip the current iteration of the loop.
+
+4.What is an Array? How will you declare an array in java?
+-Array is a group of similar datatype in the same datatype.We declare an array in Java as we 
+do other variables, by providing a type and name: int[] myArray.
+ 
+5.When will you get ArrayIndexOutOfBoundsException?
+-ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is 
+backed by an array with an invalid index.
+-This means that the index is either less than zero or greater than or equal to the size of the array. 
+
+6.Define the Syntax to create an object for a class.What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examples 
+             
+            -> ClassName object=new ClassName();
+ 
+            * Classname---- should start with uppercase.
+ 
+            * Methodname---- should start with lowercase and followed by uppercase such as firstname()
+  
+            * Variablename---- should start with lowercase and followed by uppercase such as lastname()
+       
+7.What is Variable?How will you declare a variables in java?
+-Variables are the basic unit of storage in a programming language. 
+-These variables consist of a data type, the variable name, and the value to be assigned to the variable.
+-Unless and until the variables are declared and initialized, they cannot be used in the program.
+
+8.What is String in java? Is it a Data Type?
+-Strings, which are widely used in Java programming, are a sequence of characters.
+-It is not a primitive data type.
+ 
+9.What are the different ways to create the String Object in java?
+-By string literal : Java String literal is created by using double quotes. For Example: String s=“Welcome”;
+-By new keyword : Java String is created by using a keyword “new”. For example: String s=new String(“Welcome”);
+10.What is the Difference between .Equals and ==?
+-The major difference between the == operator and . equals() method is that one is an operator, and the other is the method.
+-Both these == operators and equals() are used to compare objects to mark equality.
